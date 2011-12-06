@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="manifest.xsl" ?>
+<project xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title>ThumbWhere</title>
+  <short_name>ThumbWhere</short_name>
+  <dc:creator>ThumbWhere</dc:creator>
+  <api_version>7.x</api_version>
+  <recommended_major>0</recommended_major>
+  <supported_majors>0</supported_majors>
+  <default_major>0</default_major>
+  <project_status>published</project_status>
+  <link>http://drupalmodules.thumbwhere.com/release-history/ThumbWhere/</link>
+  <terms>
+    <term>
+      <name>Projects</name>
+      <value>Modules</value>
+    </term>
+    <term>
+      <name>Development status</name>
+      <value>Under active development</value>
+    </term>
+    <term>
+      <name>Maintenance status</name>
+      <value>Actively maintained</value>
+    </term>
+  </terms>
+  <releases>
+    <release>
+      <name>ThumbWhere 7.x-0.0-dev-build0</name>
+      <version>7.x-0.0-dev-build0</version>
+      <tag>7.x-0.0-dev-build0</tag>
+      <version_major>0</version_major>
+      <version_patch>0</version_patch>
+      <status>
+      </status>
+      <release_link>http://drupalmodules.thumbwhere.com/release-history/ThumbWhere/7.x/ThumbWhere-7.x-0.0-dev-build0.html</release_link>
+      <download_link>http://drupalmodules.thumbwhere.com/release-history/ThumbWhere/7.x/ThumbWhere-7.x-0.0-dev-build0.tar.gz</download_link>
+      <date>1323177673</date>
+      <mdhash>da78acfe67d482d4d920f83f35d0d129</mdhash>
+      <filesize>440</filesize>
+      <files>
+        <file>
+          <url>http://drupalmodules.thumbwhere.com/release-history/ThumbWhere/7.x/ThumbWhere-7.x-0.0-dev-build0.tar.gz</url>
+          <archive_type>tar.gz</archive_type>
+          <md5>da78acfe67d482d4d920f83f35d0d129</md5>
+          <size>440</size>
+          <filedate>1323177673</filedate>
+        </file>
+        <file>
+          <url>http://drupalmodules.thumbwhere.com/release-history/ThumbWhere/7.x/ThumbWhere-7.x-0.0-dev-build0.zip</url>
+          <archive_type>zip</archive_type>
+          <md5>742cfeb260868f0579b5cb59251d0ad7</md5>
+          <size>613</size>
+          <filedate>1323177673</filedate>
+        </file>
+      </files>
+      <terms>
+        <term>
+          <name>Release type</name>
+          <value>Bug Fixes</value>
+        </term>
+      </terms>
+    </release>
+  </releases>
+</project>
