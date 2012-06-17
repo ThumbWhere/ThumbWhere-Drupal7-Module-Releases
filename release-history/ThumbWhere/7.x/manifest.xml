@@ -26,6 +26,42 @@
   </terms>
   <releases>
     <release>
+      <name>ThumbWhere 7.x-0.3-dev</name>
+      <version>7.x-0.3-dev</version>
+      <tag>7.x-0.3-dev</tag>
+      <version_major>0</version_major>
+      <version_patch>3</version_patch>
+      <status>
+      </status>
+      <release_link>http://drupalmodules.thumbwhere.com/release-history/ThumbWhere/7.x/ThumbWhere-7.x-0.3-dev.html</release_link>
+      <download_link>http://drupalmodules.thumbwhere.com/release-history/ThumbWhere/7.x/ThumbWhere-7.x-0.3-dev.tar.gz</download_link>
+      <date>1339932250</date>
+      <mdhash>ee3203f17a6c0582919f005f1d50524e</mdhash>
+      <filesize>2265776</filesize>
+      <files>
+        <file>
+          <url>http://drupalmodules.thumbwhere.com/release-history/ThumbWhere/7.x/ThumbWhere-7.x-0.3-dev.tar.gz</url>
+          <archive_type>tar.gz</archive_type>
+          <md5>ee3203f17a6c0582919f005f1d50524e</md5>
+          <size>2265776</size>
+          <filedate>1339932250</filedate>
+        </file>
+        <file>
+          <url>http://drupalmodules.thumbwhere.com/release-history/ThumbWhere/7.x/ThumbWhere-7.x-0.3-dev.zip</url>
+          <archive_type>zip</archive_type>
+          <md5>589b9a32ab22eccc6050488680b9a7d4</md5>
+          <size>2475493</size>
+          <filedate>1339932250</filedate>
+        </file>
+      </files>
+      <terms>
+        <term>
+          <name>Release type</name>
+          <value>Bug Fixes</value>
+        </term>
+      </terms>
+    </release>
+    <release>
       <name>ThumbWhere 7.x-0.2-dev</name>
       <version>7.x-0.2-dev</version>
       <tag>7.x-0.2-dev</tag>
