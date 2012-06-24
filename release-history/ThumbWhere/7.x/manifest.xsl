@@ -14,7 +14,7 @@
 					<h1>Module Summary</h1>	 					
 					<ul>Short Name: <xsl:value-of select="/project/short_name" /></ul>
 					<ul>Latest Version: <xsl:value-of select="/project/releases/release/version" /></ul>
-					<ul>Download: <a href="${/project/releases/release/download_link}"><xsl:value-of select="/project/releases/release/download_link" /></a></ul>
+					<ul>Download: <a href="{/project/releases/release/download_link}"><xsl:value-of select="/project/releases/release/download_link" /></a></ul>
 				</div>
 
 				</body>
