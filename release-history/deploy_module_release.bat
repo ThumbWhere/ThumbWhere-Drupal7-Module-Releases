@@ -22,7 +22,7 @@ PUSHD ..\..\ThumbWhere-Drupal7-Module-Releases\release-history\
 IF NOT ERRORLEVEL 0 GOTO ReportError
 
 @REM Update the release by pulling in the latest code
-..\..\ThumbWhere-Drupal7-Module\tools\DrupalUtil.exe add ..\..\ThumbWhere-Drupal7-Module\thumbWhere thumbwhere 7.x patch %MESSAGE% %STREAM% %BUILD% %4 %5 %6
+..\..\ThumbWhere-Drupal7-Module\tools\DrupalUtil.exe add ..\..\ThumbWhere-Drupal7-Module\thumbwhere thumbwhere 7.x patch %MESSAGE% %STREAM% %BUILD% %4 %5 %6
 IF NOT ERRORLEVEL 0 GOTO ReportError
 
 REM Create Directories
