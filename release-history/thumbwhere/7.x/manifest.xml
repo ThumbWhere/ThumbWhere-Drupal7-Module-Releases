@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="manifest.xsl" ?>
 <project xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <title>thumbwhere</title>
+  <title>ThumbWhere</title>
   <short_name>thumbwhere</short_name>
   <dc:creator>thumbwhere</dc:creator>
   <api_version>7.x</api_version>
