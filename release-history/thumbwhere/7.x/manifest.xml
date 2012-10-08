@@ -26,6 +26,42 @@
   </terms>
   <releases>
     <release>
+      <name>thumbwhere 7.x-0.38-dev</name>
+      <version>7.x-0.38-dev</version>
+      <tag>7.x-0.38-dev</tag>
+      <version_major>0</version_major>
+      <version_patch>38</version_patch>
+      <status>
+      </status>
+      <release_link>http://drupalmodules.thumbwhere.com/release-history/thumbwhere/7.x/thumbwhere-7.x-0.38-dev.html</release_link>
+      <download_link>http://drupalmodules.thumbwhere.com/release-history/thumbwhere/7.x/thumbwhere-7.x-0.38-dev.tar.gz</download_link>
+      <date>1349739668</date>
+      <mdhash>03553591c3415b6c3292b02d4dd1e491</mdhash>
+      <filesize>2558037</filesize>
+      <files>
+        <file>
+          <url>http://drupalmodules.thumbwhere.com/release-history/thumbwhere/7.x/thumbwhere-7.x-0.38-dev.tar.gz</url>
+          <archive_type>tar.gz</archive_type>
+          <md5>03553591c3415b6c3292b02d4dd1e491</md5>
+          <size>2558037</size>
+          <filedate>1349739668</filedate>
+        </file>
+        <file>
+          <url>http://drupalmodules.thumbwhere.com/release-history/thumbwhere/7.x/thumbwhere-7.x-0.38-dev.zip</url>
+          <archive_type>zip</archive_type>
+          <md5>9374636267fb7b926b8b9106cfb45d4a</md5>
+          <size>2887173</size>
+          <filedate>1349739668</filedate>
+        </file>
+      </files>
+      <terms>
+        <term>
+          <name>Release type</name>
+          <value>Bug Fixes</value>
+        </term>
+      </terms>
+    </release>
+    <release>
       <name>thumbwhere 7.x-0.37-dev</name>
       <version>7.x-0.37-dev</version>
       <tag>7.x-0.37-dev</tag>
