@@ -26,6 +26,42 @@
   </terms>
   <releases>
     <release>
+      <name>thumbwhere 7.x-0.49-dev</name>
+      <version>7.x-0.49-dev</version>
+      <tag>7.x-0.49-dev</tag>
+      <version_major>0</version_major>
+      <version_patch>49</version_patch>
+      <status>
+      </status>
+      <release_link>http://drupalmodules.thumbwhere.com/release-history/thumbwhere/7.x/thumbwhere-7.x-0.49-dev.html</release_link>
+      <download_link>http://drupalmodules.thumbwhere.com/release-history/thumbwhere/7.x/thumbwhere-7.x-0.49-dev.tar.gz</download_link>
+      <date>1360557654</date>
+      <mdhash>32185f2a113eb21c3e231f109f192867</mdhash>
+      <filesize>2806725</filesize>
+      <files>
+        <file>
+          <url>http://drupalmodules.thumbwhere.com/release-history/thumbwhere/7.x/thumbwhere-7.x-0.49-dev.tar.gz</url>
+          <archive_type>tar.gz</archive_type>
+          <md5>32185f2a113eb21c3e231f109f192867</md5>
+          <size>2806725</size>
+          <filedate>1360557654</filedate>
+        </file>
+        <file>
+          <url>http://drupalmodules.thumbwhere.com/release-history/thumbwhere/7.x/thumbwhere-7.x-0.49-dev.zip</url>
+          <archive_type>zip</archive_type>
+          <md5>f15bc9691a54e03d9cf7690540627e98</md5>
+          <size>3234599</size>
+          <filedate>1360557654</filedate>
+        </file>
+      </files>
+      <terms>
+        <term>
+          <name>Release type</name>
+          <value>Bug Fixes</value>
+        </term>
+      </terms>
+    </release>
+    <release>
       <name>thumbwhere 7.x-0.48-dev</name>
       <version>7.x-0.48-dev</version>
       <tag>7.x-0.48-dev</tag>
