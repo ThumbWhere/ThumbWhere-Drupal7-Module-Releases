@@ -3,8 +3,17 @@ REM This script will pull the latest thumbwhere module into this release folder 
 REM
 SET HOME=\home
 
-"C:\Program Files\Git\bin\git.exe" config --global user.name "Build Server"
-"C:\Program Files\Git\bin\git.exe" config --global user.email "build@thumbwhere.com"
+
+REM PICK YOUR GIT
+if exist {"C:\Program Files (x86)\Git\bin\git.exe"} (
+    SET GIT_PATH="C:\Program Files (x86)\Git\bin\git.exe"
+) else (
+    SET GIT_PATH="C:\Program Files\Git\bin\git.exe"
+)
+
+
+%GIT_PATH% config --global user.name "Build Server"
+%GIT_PATH% config --global user.email "build@thumbwhere.com"
 
 SET BUILD=0
 SET STREAM=dev
@@ -36,7 +45,7 @@ PUSHD E:\checkout\%STREAM%\
 IF NOT ERRORLEVEL 0 GOTO ReportError
 
 REM Checkout if we need to
-IF NOT EXIST ThumbWhere-Drupal7-Module-Releases "C:\Program Files\Git\bin\git.exe" clone git@github.com:ThumbWhere/ThumbWhere-Drupal7-Module-Releases.git
+IF NOT EXIST ThumbWhere-Drupal7-Module-Releases %GIT_PATH% clone git@github.com:ThumbWhere/ThumbWhere-Drupal7-Module-Releases.git
 IF NOT ERRORLEVEL 0 GOTO ReportError
 
 POPD
@@ -53,19 +62,19 @@ PUSHD E:\checkout\%STREAM%\ThumbWhere-Drupal7-Module-Releases
 IF NOT ERRORLEVEL 0 GOTO ReportError
 
 REM Make sure we are up to date
-"C:\Program Files\Git\bin\git.exe" pull
+%GIT_PATH% pull
 IF NOT ERRORLEVEL 0 GOTO ReportError
 
 REM Add the new changes
-"C:\Program Files\Git\bin\git.exe" add .
+%GIT_PATH% add .
 IF NOT ERRORLEVEL 0 GOTO ReportError
 
 REM Add the new changes
-"C:\Program Files\Git\bin\git.exe" commit -m "Automatic commit by %STREAM% build."
+%GIT_PATH% commit -m "Automatic commit by %STREAM% build."
 IF NOT ERRORLEVEL 0 GOTO ReportError
 
 REM Push the new changes
-"C:\Program Files\Git\bin\git.exe" push
+%GIT_PATH% push
 IF NOT ERRORLEVEL 0 GOTO ReportError
 
 POPD
