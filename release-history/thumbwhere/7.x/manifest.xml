@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="manifest.xsl" ?>
 <project xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title>ThumbWhere</title>
@@ -52,12 +52,13 @@
           <md5>1508b729f6362c373df1908e919409c6</md5>
           <size>1464507</size>
           <filedate>1391411938</filedate>
+
         </file>
       </files>
       <terms>
         <term>
           <name>Release type</name>
-          <value>Bug Fixes</value>
+          <value>dev</value>
         </term>
       </terms>
     </release>
