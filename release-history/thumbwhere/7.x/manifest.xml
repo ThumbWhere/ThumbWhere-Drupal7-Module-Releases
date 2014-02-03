@@ -26,7 +26,6 @@
   </terms>
   <releases>
     <release>
-<<<<<<< HEAD
       <name>thumbwhere 7.x-0.37-dev</name>
       <version>7.x-0.37-dev</version>
       <tag>7.x-0.37-dev</tag>
@@ -135,8 +134,6 @@
       </terms>
     </release>
     <release>
-=======
->>>>>>> 85af2ec655fc4ee8e8241dc8fe1c5affb14b7fa4
       <name>thumbwhere 7.x-0.34-dev</name>
       <version>7.x-0.34-dev</version>
       <tag>7.x-0.34-dev</tag>
